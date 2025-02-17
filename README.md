@@ -9,8 +9,23 @@ The game is played in the following manner:
    - The laser boards measure and record the distance to the opposing wall/objects.
    - The home board and laser boards establish wireless connections.
 4. The user pushes the button to begin.
-5. The user has 5 seconds to move to their desired start position.
-6. After 5 seconds the buzzer sound, signaling that the timer has started and the game has begun.
-7. The user attempts to reach the home board and push the button as quickly as possible withouth being detected by the lasers on the laser boards.
+5. The user has 10 seconds to move to their desired start position.
+6. After the 10 seconds are up, the buzzer sounds, signaling that the timer has started and the game has begun.
+7. The user attempts to reach the home board and push the button as quickly as possible without being detected by the lasers on the laser boards.
    - If a laser board detects the user, it sends a signal to the home board, the buzzer sounds, and the game is lost.
-   - If the user reaches the home board without be detected, the timer stops and the game is won.
+   - If the user reaches the home board without being detected, the timer stops and the game is won.
+
+## Required Materials
+- Development Kits (Texas Instruments LP-EM-CC2340R5)
+  - CC2340R5 LaunchPad™ development kit for SimpleLink™ Bluetooth® 5.3 Low Energy MCU
+  - Includes:
+    - CC2340R5 — SimpleLink™ 32bit Arm® Cortex®-M0+ 2.4GHz wireless MCU with 512kB flash
+    - CC2340R5-Q1 — Automotive-qualified SimpleLink™ Bluetooth® Low Energy wireless MCU with 512-kB flash
+- Backlit LCD (NHD-0420H1Z-FL-GBW-33V3)
+- Push Button
+- Buzzer
+- Ultrasonic Sensors (Adafruit 4007)
+  - Measuring range: 2cm - 450cm
+- Laser Diodes (Quarton Inc. VLM-650-03 LPT)
+  - Visible red light (650nm)
+  - Class 2 laser (1mW)
